@@ -1,0 +1,79 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 4rem;
+    margin: 2rem 0;
+  }
+  
+  #search_artist {
+    padding: 4rem 0;
+    text-align: center;
+  }
+  
+  #input_search {
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+    font-size: 2rem;
+    margin-top: 2rem;
+    padding: 1rem;
+    width: 80%;
+  }
+  
+  #input_search:focus {
+    outline: none;
+  }
+  
+  #album_list_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 4rem;
+  }
+  
+  .album_item {
+    background-color: #222;
+    border-radius: 1rem;
+    margin: 2rem;
+    padding: 2rem;
+    text-align: center;
+    width: 20rem;
+  }
+  
+  .item_thmb {
+    background-size: cover;
+    background-position: center;
+    height: 15rem;
+    margin-bottom: 2rem;
+  }
+  
+  .item_title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .item_price {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  a {
+    background-color: #fff;
+    border-radius: 0.5rem;
+    color: #000;
+    display: inline-block;
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    background-color: #000;
+    color: #fff;
+  }
